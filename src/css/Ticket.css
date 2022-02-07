@@ -1,0 +1,10 @@
+.ticket{
+    border-radius: 10px;
+    background-color: #d1cdcd;
+    width: 22.5em;
+    margin: 0 1em 0 1em;
+}
+
+.ticketContent{
+    padding: 0 1.5em 1.5em 1.5em;
+}

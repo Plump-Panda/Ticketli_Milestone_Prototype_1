@@ -1,0 +1,25 @@
+.navbar{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    border: 1px solid red;
+}
+
+.navbarUL {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.navbarUL > * {
+    padding: 0 1em 0 1em;
+}
+
+#logo{
+    background-color: aquamarine;
+    width: 10em;
+    padding: 1em;
+}

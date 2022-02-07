@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+
+
+.main{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.headerSection{
+  display: flex;
+}
+
+#milestoneTitle{
+  font-size: 48.75px;
+  margin-left: 3em;
+}
+
+#buttonContainer{
+  display: flex;
+  flex-direction: column;
+  margin-left: 25em;
+}
+
+#buttonContainer > *{
+  padding: 1em;
+  margin: 1em;
+}
+
+.ticketContainer{
+  display: flex;
+  flex-direction: row;
+}
+
+.peopleContainer{
+  display: flex;
+  flex-direction: row;
+}

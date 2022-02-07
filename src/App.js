@@ -18,31 +18,31 @@ function App() {
     <div className="App">
       <Navbar/>
       <div className='main'>
-      <section className='leftside'>
-        <div className='headerSection'>
-          <div>
-            <h1 id='milestoneTitle'>Milestone Name 3</h1>
-            <h2>Completion: 68%</h2>
+        <section className='leftside'>
+          <div className='headerSection'>
+            <div>
+              <h1 id='milestoneTitle'>Milestone Name 3</h1>
+              <h2>Completion: 68%</h2>
+            </div>
+            <div id='buttonContainer'>
+              <button>Edit Milestone</button>
+              <button>Ticket Board</button>
+            </div>
           </div>
-          <div id='buttonContainer'>
-            <button>Edit Milestone</button>
-            <button>Ticket Board</button>
+          <div className='ticketContainer'>
+            <Ticket title={backlog}/>
+            <Ticket title={progress}/>
+            <Ticket title={finished}/>
           </div>
-        </div>
-        <div className='ticketContainer'>
-          <Ticket title={backlog}/>
-          <Ticket title={progress}/>
-          <Ticket title={finished}/>
-        </div>
-        <div className='peopleContainer'>
-          <People title={members}/>
-          <People title={managers}/>
-          <People title={developers}/>
-        </div>
-      </section>
-      <section className='rightside'>
-        <MainStats/>
-      </section>
+          <div className='peopleContainer'>
+            <People title={members}/>
+            <People title={managers}/>
+            <People title={developers}/>
+          </div>
+        </section>
+        <section className='rightside'>
+          <MainStats/>
+        </section>
       </div>
       
     </div>

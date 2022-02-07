@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  /* display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; */
 }
 
 .App-logo {
@@ -39,30 +42,33 @@
 
 
 .main{
-  margin-top: 1em;
+  margin-top: 1%;
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
+  width: 100%;
 }
 
 .headerSection{
   display: flex;
 }
 
+.titleSection{
+  margin-left: 5%;
+}
+
 #milestoneTitle{
   font-size: 48.75px;
-  margin-left: 3em;
 }
 
 #buttonContainer{
   display: flex;
   flex-direction: column;
-  margin-left: 25em;
+  margin-left: 45%;
+  width: 10%;
 }
 
 #buttonContainer > *{
-  padding: 1em;
-  margin: 1em;
+  padding: 15%;
+  margin: 5%;
 }
 
 .ticketContainer{
@@ -73,4 +79,12 @@
 .peopleContainer{
   display: flex;
   flex-direction: row;
+}
+
+/* * {
+  border: 1px red solid;
+} */
+
+.leftside{
+  width: 70%;
 }

@@ -5,26 +5,26 @@ function People(props){
         <div className="people">
             <h1 id='peopleTitle'>{props.title}</h1>
 
-            <div className='peopleWrapper'>
+            <section className='peopleWrapper'>
                 <div id='circle'/>
                 <div className='personName'>
                     John Snow
                 </div>
-            </div>
+            </section>
 
-            <div className='peopleWrapper'>
+            <section className='peopleWrapper'>
                 <div id='circle'/>
                 <div className='personName'>
                     John Snow
                 </div>
-            </div>
+            </section>
 
-            <div className='peopleWrapper'>
+            <section className='peopleWrapper'>
                 <div id='circle'/>
                 <div className='personName'>
                     John Snow
                 </div>
-            </div>
+            </section>
         </div>
        
     );

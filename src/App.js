@@ -20,7 +20,7 @@ function App() {
       <div className='main'>
         <section className='leftside'>
           <div className='headerSection'>
-            <div>
+            <div className='titleSection'>
               <h1 id='milestoneTitle'>Milestone Name 3</h1>
               <h2>Completion: 68%</h2>
             </div>
@@ -44,7 +44,6 @@ function App() {
           <MainStats/>
         </section>
       </div>
-      
     </div>
   );
 }

@@ -1,25 +1,25 @@
 /* https://css-tricks.com/the-shapes-of-css/ */
 #circle {
-    width: 3em;
-    height: 3em;
+    width: 25px;
+    height: 25px;
     background: rgb(80, 78, 78);
     border-radius: 50%
 }
 
 #peopleTitle{
-    width: 100%;
+    /* width: 100%; */
 }
 
 .people{
     background-color: #d1cdcd;
     border-radius: 10px;
-    margin: 1em;
-    width: 33%;
+    margin: 2.5%;
+    width: 24.25%;
 }
 
 .peopleWrapper{
     background-color: aqua;
-    width: 15em;
+    width: 65%;
     border-radius: 10px;
     padding: 0.5em;
     display: flex;

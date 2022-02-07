@@ -1,10 +1,10 @@
 .ticket{
     border-radius: 10px;
     background-color: #d1cdcd;
-    width: 22.5em;
-    margin: 0 1em 0 1em;
+    width: 25%;
+    margin: 1% 2% 0 2%;
 }
 
 .ticketContent{
-    padding: 0 1.5em 1.5em 1.5em;
+    padding: 0 15px 15px 15px;
 }

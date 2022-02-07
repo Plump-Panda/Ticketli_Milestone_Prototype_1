@@ -1,24 +1,23 @@
 .mainstats{
-    margin-left: 5em;
+    margin-left: 5%;
     border-radius: 10px;
     background-color: #d1cdcd;
     height: 90vh;
-    width: 35em;
+    width: 100%;
 }
 
 .mainstatsUL {
     list-style-type: none;
     margin: 0;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
 }
 
 .mainstatsUL > *{
-    padding-top: 1em;
+    padding-top: 10%;
 }
 
 .mainstats > * {
-    padding: 0 1em 0 1em;
-    font-size: 30px
+    padding: 0 26px 0 26px;
+    font-size: 2em;
 }
